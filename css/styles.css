@@ -610,8 +610,8 @@ a {
 }
 /* Blocks */
 .block {
-  --padding-vertical: 6rem;
-  padding: var(--padding-vertical) 2rem;
+  --padding-vertical: 5rem;
+  padding: var(--padding-vertical);
 }
 
 .block__header {
@@ -635,13 +635,13 @@ a {
 }
 
 .block--skewed-right {
-  padding-bottom: calc(var(--padding-vertical) + 4rem);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90%);
+  padding-bottom: calc(var(--padding-vertical)) + 4rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 95%);
 }
 
 .block--skewed-left {
-  padding-bottom: calc(var(--padding-vertical) + 4rem);
-  clip-path: polygon(0% 0%, 100% 0%, 100% 90%, 0% 100%);
+  padding-bottom: calc(var(--padding-vertical)) + 4rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%);
 }
 
 .container {
@@ -841,6 +841,8 @@ a {
 .footer__heading {
   text-transform: uppercase;
   font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 1.5;
 }
 
 .footer__brand {
@@ -887,13 +889,14 @@ a {
     font-size: 1.6rem;
    }
 }
-/* transportation */
-#trheader .image{
-  /* background-image: url(/images/blurred-street-scene-city-with-plane-flying.jpg); */
-  height: 20rem;
-  background-size: cover;
+
+.fa-bag-shopping::before {
+  content: "\f290";
 }
 
+.head-nav {
+  margin: 0;
+}
 
 
 

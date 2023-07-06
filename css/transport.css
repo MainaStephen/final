@@ -1,0 +1,176 @@
+/* transportation */
+nav.collapsible .transport {
+    z-index: 1;
+}
+
+#trheader {
+    background-image: url(/images/transport1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding: 14px; */
+}
+
+.contain {
+    text-align: center;
+}
+
+.head {
+    position: relative;
+    top: -5rem;
+    background-color: black;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.head h4 {
+    color: #ccc;
+    font-size: 20px;
+    /* margin-top: 22px; */
+    /* position: relative;
+    top: 7px; */
+}
+#flights {
+    display: flex;
+    /* position: relative;
+    top: -35rem; */
+}
+
+/* #flights .image img{
+    padding-left: 10px;
+} */
+
+#flights .content {
+    /* position: relative;
+    top: 3rem; */
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    #trheader {
+        height: 70vh;
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+
+    .contain {
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+/* #flights .content p {
+    padding-left: 10px;
+    font-size: 20px;
+} */
+
+/* #flights .content h3 {
+    padding-left: 27px;
+} */
+
+/* #flights .content button a{
+    color: black;
+} */
+
+/* #flights .content button{
+    border-radius: 10px;
+} */
+
+/* #train {
+    display: flex;
+    position: relative;
+    top: -35rem;
+}
+#train .image img {
+    padding-left: 10px;
+    width: 60%;
+    height: 52rem;
+}
+#train .content {
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+#train .content p {
+    padding-left: 10px;
+    font-size: 20px;
+}
+#flights .content h3 {
+    padding-left: 27px;
+}
+#train .content button a{
+    color: black;
+
+}
+#train .content button{
+    border-radius: 10px;
+
+}
+#cars {
+    display: flex;
+    position: relative;
+    top: -35rem;
+}
+#cars .image img {
+    padding-left: 10px;
+    height: 35rem;
+    position: relative;
+    top: 7rem;
+}
+#cars .content {
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+#cars .content p {
+    padding-left: 10px;
+    font-size: 20px;
+}
+#cars .content h3 {
+    padding-left: 27px;
+}
+#cars .content button a{
+    color: black;
+
+}
+#cars .content button{
+    border-radius: 10px;
+
+}
+#pickup {
+    display: flex;
+    position: relative;
+    top: -35rem;
+}
+#pickup .image img {
+    padding-left: 10px;
+    width: 60%;
+    height: 52rem;
+}
+#pickup .content {
+    position: relative;
+    top: 3rem;
+    text-align: center;
+}
+#pickup .content p {
+    padding-left: 10px;
+    font-size: 20px;
+}
+#pickup .content h3 {
+    padding-left: 27px;
+}
+#pickup .content button a{
+    color: black;
+
+}
+#pickup .content button{
+    border-radius: 10px;
+
+} */
